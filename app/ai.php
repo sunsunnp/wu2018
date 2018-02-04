@@ -50,6 +50,9 @@ class AI
     {
         if (strpos($text, 'สัส') !== false) 
             return ['มีคำหยาบ'];
+        else{
+            return ['ไม่มีคำหยาบ'];
+        }
     }
 
     /**
