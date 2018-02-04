@@ -48,8 +48,9 @@ class AI
      */
     public static function getRudeWords($text)
     {
-        if (strpos($text, 'สัส') !== false) 
+        if (strpos($text, 'สัส') !== false){ 
             return ['มีคำหยาบ'];
+        }
         else{
             return ['ไม่มีคำหยาบ'];
         }
